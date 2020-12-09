@@ -1,0 +1,267 @@
+html{
+	scroll-behavior: smooth;
+	padding: 7% 5%;
+	background: black;
+}
+body{
+	background: black;
+}
+
+.btn{
+	border-radius:1.25rem;
+}
+
+.hr-lineone,.hr-linetwo{
+	border: 1px solid #f93931;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
+.hr-lineone{
+	width: 20px;
+	/*margin-top: 80px;*/
+}
+
+.hr-linetwo{
+	width: 100px;
+
+	/*margin-bottom: 44px;*/
+}
+
+.store-h5{
+	color: #f93931;
+	font-size: 18px;
+	margin-top: 17px;
+}
+.store-h2{
+	font-size: 28px;
+	margin-bottom: 24px;
+
+}
+
+/*top section start here*/
+
+#top .topcontent{
+	background-color: #f93931;
+	padding: 30px 0;
+	color: white;
+}
+
+/*top section end here*/
+
+
+/*navbar section starts here*/
+#navsection nav{
+	background: #da2720;
+
+}
+#navsection nav a{
+	color: #ffffff !important;
+
+}
+
+@media(max-width: 992px){
+	/*a.nav-link{
+		background: rgb(0,0,0,0.7);
+		color: yellow;
+
+	}*/
+	.sample{
+		margin-top: 20px;
+		padding-left: 70px;
+		padding-right: 70px;
+		background: rgb(0,0,0,0.7);
+		text-align: center;
+		transition: .4s;
+
+	}
+
+	.sample:hover{
+		transform: scale(1.1);
+		box-shadow: 2px 6px 5px black;
+	}
+	.dot{
+		display: none;
+	}
+
+	.footernavbar{
+	padding: 50px 60px;
+}
+
+.footernavbar .text-secondary{
+	
+	color: white !important;;
+}
+
+.footernavbar .text-secondary:hover{
+	
+	color: white !important;;
+}
+
+
+}
+/*navbar section ends here*/
+
+
+/*logo section starts here*/
+.logocontent{
+	font-size: 25px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.logocontent p{
+	margin-bottom: 0;
+}
+
+/*logo section ends here*/
+
+
+/*banner section starts here*/
+
+#bannersection{
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bannercontainer{
+	height: 100vh;
+}
+/*banner section ends here*/
+
+/*offer shipping feature section starts here*/
+#ofshife{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	background: white;
+}
+
+.ofshifecontainer i{
+	color: #ff3000;
+}
+
+.vl {
+  border-left: 2px solid #ff3000;
+  height: 50px;
+}
+
+/*offer shipping feature section ends here*/
+
+
+/*open sale section starts here*/
+
+#opensale{
+	background: #f93931;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#opensale h1{
+	font-size: 72px;
+}
+
+#opensale .btn{
+	background: #8a1f06;
+}
+
+
+/*open sale section ends here*/
+
+/*new arrival section starts here*/
+#newarrivalsection{
+	background: white;
+	padding-top: 100px;
+	padding-bottom: 54px;
+}
+/*new arrival section ends here*/
+
+
+/*card section starts here*/
+#cardsection{
+	padding: 4% 10%;
+}
+
+#cardsection .offertxt{
+	font-size: 12px;
+	color: #ff3000;
+}
+
+#cardsection .offertitle{
+	font-size: 16px;
+}
+
+ .btn-danger{
+	background: #ff3000 ;
+}
+/*card section ends here*/
+
+/*brand logo section start*/
+#logoaddsection {
+	
+}
+
+.popularcontainer{
+/*	padding-left: 200px;
+	padding-right: 200px;
+
+	padding-bottom: 115px !important;*/
+}
+
+/*brand logo section end*/
+
+/*popular brand section*/
+#popularbrand{
+	
+}
+.popularcontainer{
+	padding-top: 80px;
+	padding-bottom: 54px;
+}
+/*popular brand section end*/
+
+/*product shopping account*/
+.jumbotron ul li{
+	list-style-type: none;
+}
+.jumbotron{
+	margin-bottom: 0;
+}
+.jumbotron ul{
+	padding-left: 0;
+}
+
+.jumbotron  .logocontent{
+	margin-top: -25px;
+}
+/*product shopping account*/
+/*footer navnbar start*/
+
+.footernavbar{
+	padding: 50px 100px;
+}
+/*footer navnbar end*/
+
+/*copyright section starts*/
+.copyright{
+	background: #f93931;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.copyright p{
+	margin-bottom: 0;
+	font-size: 14px;
+}
+/*copyright section ends*/
+
+@media(max-width: 1200px){
+	.footernavbar{
+	padding: 50px 60px;
+	
+}
+
+
+}
